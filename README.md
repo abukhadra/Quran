@@ -7,7 +7,7 @@ Implementation will be done in rust to allow compilation and generation of nativ
 
 
 ## Todo
-- [x] generate quran data file in text format
+- [x] generate Quran data file in text format
 - [ ] data file transformation: transform to other formats such as json and xml 
 - [ ] serialize the data 
 - [ ] add functions to process the data
