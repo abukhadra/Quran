@@ -6,7 +6,7 @@ data files over coding to allow other projects to benifit from the data and supp
 Implementation will be done in rust to allow compilation and generation of native libraries that can be used effeciently from any other programming language.
 
 
-## Todo
+## Current Todo items
 - [x] generate Quran data file in text format
 - [ ] data file transformation: transform to other formats such as json and xml 
 - [ ] serialize the data 
