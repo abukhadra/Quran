@@ -17,6 +17,7 @@ Implementation will be done in rust to allow compilation and generation of nativ
 - [ ] auto correction
 - [ ] auto completion 
 - [ ] data extraction and transformation 
+- [ ] Tajweed
 - [ ] recognition 
 - [ ] intigration with other libraries and future projects, such as Arabic grammar , Tafseer, Hadeeth ...etc
 - [ ] APIs
