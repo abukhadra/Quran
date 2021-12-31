@@ -11,6 +11,8 @@ Currently, only the lexer is completed, to run a quick test :
     $  cargo run > output.txt
     ````
 
+Open output.txt using an editor, and switch the writing direction to "Right to Left"
+
  This will reformat the Quran data file [data/quran.txt](data/quran.txt) and store the output to output.txt as follows:  
        1-  each verse will be printed on a separate line.  
        2- convert verse numbers from Arabic Numerals to Eastern Arabic Numerals.  
