@@ -11,7 +11,7 @@ Currently, only the lexer is completed, to run a quick test :
     $  cargo run > output.txt
     ````
 
- this will reformat the Quran data file data/quran.txt and store the output to output.txt as follows:  
+ This will reformat the Quran data file [data/quran.txt](data/quran.txt) and store the output to output.txt as follows:  
        1-  each verse will be printed on a separate line.  
        2- convert verse numbers from Arabic Numerals to Eastern Arabic Numerals.  
        3- add an ASCII frame to the Surah title. 
