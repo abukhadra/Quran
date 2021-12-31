@@ -16,7 +16,7 @@ Currently, only the lexer is completed, to run a quick test :
     2- convert verse numbers from Arabic Numerals to Eastern Arabic Numerals.  
     3- add an ASCII frame to the Surah title. 
   
-Next : build the lexical_analyzer to arrange the elements into an AST. 
+**Next** : build the lexical_analyzer to arrange the elements into an AST. 
 
 ## Current Todo items
 - [x] generate Quran data file in text format
