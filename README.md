@@ -5,7 +5,11 @@
 - Implementation will be done in rust to allow compilation and generation of native libraries that can be used effeciently from any other programming language.
 
 ## Status
-Currently, the lexer is completed, to run a quick test :  
+The project is still in its early stages,    
+currently the parser is functional, it reads the Quran data from the file src/data/quran.txt,   
+and builds a syntax tree.  
+
+to run a quick test :  
     ````
     $  cargo run > output.txt
     ````
