@@ -6,7 +6,7 @@
 
 ## Status
 The project is still in its early stages,    
-currently the library provides a basic parser which reads the Quran data from the file src/data/quran.txt,   
+Currently the library provides a basic parser which reads the Quran data from the file src/data/quran.txt,   
 and builds a syntax tree consisting of three types of elements: Surah (Chapter), Ayah (Verse), Word.
 
 
