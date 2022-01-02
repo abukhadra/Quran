@@ -19,7 +19,7 @@ Open output.txt using an editor, and switch the writing direction to "Right to L
 
 Or use a terminal that supports Arabic, following screen shot shows the application running on MacOS Terminal.app. 
 
-![src/examples/quick_test.rs output](./img/quick_test.png "src/examples/quick_test.rs")
+![./src/examples/quick_test.rs](./img/quick_test.png "./src/examples/quick_test.rs")
 
 
 
