@@ -13,9 +13,8 @@ Currently, the lexer is completed, to run a quick test :
 Open output.txt using an editor, and switch the writing direction to "Right to Left"
 Or use a terminal that supports Arabic, following screen shot using  MacOS Terminal.app
 
-<p align="center">
- [src/examples/quick_test.rs output](./img/quick_test.png "src/examples/quick_test.rs")
-</p>
+[src/examples/quick_test.rs output](./img/quick_test.png "src/examples/quick_test.rs")
+
 
 
 ## Current Todo items
