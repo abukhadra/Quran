@@ -13,7 +13,7 @@ Currently, the lexer is completed, to run a quick test :
 Open output.txt using an editor, and switch the writing direction to "Right to Left"
 
 <p align="center">
-  <img alt="src/examples/quick_test.rs output" src="img/quick_test.png">
+  <img src="img/quick_test.png">
 </p>
 
 
