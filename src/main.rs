@@ -1,15 +1,8 @@
-
-mod config;
 mod parser;
+mod config;
 mod util;
-
-use std::fs;
-use config::get_config;
+mod examples;
 
 fn main() {
-
-    let content = fs::read_to_string(get_config("QURAN_FILENAME"))
-        .expect("could not read Quran data file");
-    let ast = parser::run(content);
-
+    examples::quick_test::run();
 }

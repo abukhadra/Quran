@@ -1,18 +1,15 @@
 pub mod token;
 pub mod ast;
 pub mod lexer;
-pub mod syntax_analyzer;
-
+pub mod syntax;
 
 use lexer::Lexer;
+use ast::Quran;
 
-pub fn run(content: String) {
+pub fn run(content: String) -> Quran {
     let mut lexer = Lexer::new(&content);
     let tokens = lexer.tokenize();
-
-
-    for token in tokens { print!("{}", token); }
-
-    // todo: implement the syntax analyzer and return an AST
+    let mut analyzer = syntax::Analyzer::new(&tokens);    
+    analyzer.quran().clone()
 
 }

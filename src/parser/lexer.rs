@@ -1,7 +1,6 @@
 use std::str::Chars;
 use crate::parser::token::Token;
 
-
 pub struct Lexer<'a> {
     line: u32,
     column: u32,
@@ -32,7 +31,7 @@ impl<'a> Lexer<'a> {
                 '{' => self.end_of_ayah(), 
                 '\u{0600}'..='\u{06FF}' => {            // todo: remove characters that are not used in quran
                     let mut value = String::from(c);
-                    self.kalimah(&mut value);           
+                    self.word(&mut value);           
                 },          
                 _ => self.error("tokenize", c),
             }
@@ -68,19 +67,19 @@ impl<'a> Lexer<'a> {
     }
 
     // todo: handle waw ( و ) when used as a conjunction and prefixed to a word
-    fn kalimah(&mut self, value: &mut String) {
+    fn word(&mut self, value: &mut String) {
         loop {            
             let c= self.next();
             match c {
                 '{' => { 
-                    self.tokens.push( Token::Kalimah(value.to_string()) );
+                    self.tokens.push( Token::Word(value.to_string()) );
                     self.end_of_ayah(); break; 
                 },
                 ' ' | '\t' => {
-                    self.tokens.push( Token::Kalimah(value.to_string()) );
+                    self.tokens.push( Token::Word(value.to_string()) );
                     break;
                 },
-                '\0' => self.error("kalimah", c),
+                '\0' => self.error("word", c),
                 _ => {} // todo: improve should allow only arabic letters , tashkeel and quranic symbols... panic! otherwise
             }
             value.push(c);
