@@ -10,7 +10,7 @@ Currently the library provides a basic parser which reads the Quran data from th
 and builds a syntax tree consisting of three types of elements: Surah (Chapter), Ayah (Verse), Word.
 
 
-to run a quick test :  
+To run a quick test :  
     ````
     $  cargo run > output.txt
     ````
