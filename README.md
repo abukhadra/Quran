@@ -4,7 +4,7 @@
 - The goal of the project is to provide functions to help with the development of Islamic and Arabic applications  
 - Implementation will be done in rust to allow compilation and generation of native libraries that can be used effeciently from any other programming language.
 
-## Project Status
+## Status of the Project
 The project is still in its early stages,    
 Currently the library provides a basic parser which reads the Quran data from the file src/data/quran.txt,   
 and builds a syntax tree consisting of three types of elements: Surah (Chapter), Ayah (Verse), Word.
