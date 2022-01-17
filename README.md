@@ -10,9 +10,9 @@ Currently the library provides a basic parser which reads the Quran data from th
 and builds a syntax tree consisting of three types of elements: Surah (Chapter), Ayah (Verse), Word.
 
 
-To run a quick test :  
+To run a quick test : 
     ````
-    $  cargo run > output.txt
+    $   cargo run > output.txt
     ````
 
 Open output.txt using an editor, and switch the writing direction to "Right to Left". 
