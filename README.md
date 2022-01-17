@@ -40,4 +40,3 @@ Or use a terminal that supports Arabic, following screen shot shows the applicat
 - [ ] APIs
 - [ ] Syntax highlighting 
 - [ ] Tools
-
