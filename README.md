@@ -1,5 +1,10 @@
 # Quran
  
+> **Note**
+> This project is now being developed using the seen programming language, <br>
+> Project moved to [Seen Repository](https://github.com/abukhadra/seen-lib-islamic)
+
+
 # A Quran Library written in rust. 
 - The goal of the project is to provide functions to help with the development of Islamic and Arabic applications  
 - Implementation will be done in rust to allow compilation and generation of native libraries that can be used effeciently from any other programming language.
