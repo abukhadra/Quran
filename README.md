@@ -1,3 +1,3 @@
 # Quran
 
-Quran assets and data 
+Quran assets and data
